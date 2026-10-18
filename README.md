@@ -15,7 +15,7 @@
 
   <br>
 
-  <a href="#-coding-agents">Coding</a> ┬╖ <a href="#-agent-frameworks">Frameworks</a> ┬╖ <a href="#-browser--desktop-agents">Browser</a> ┬╖ <a href="#-voice-agents">Voice</a> ┬╖ <a href="#-creative-ai">Creative</a> ┬╖ <a href="#-task--workflow-agents">Workflow</a> ┬╖ <a href="#-customer-support--crm-agents">CRM</a> ┬╖ <a href="#-data--research-agents">Research</a> ┬╖ <a href="#-local--self-hosted-ai">Self-Hosted</a> ┬╖ <a href="#-protocols--standards">Protocols</a>
+  <a href="#-coding-agents">Coding</a> · <a href="#-agent-frameworks">Frameworks</a> · <a href="#-browser--desktop-agents">Browser</a> · <a href="#-voice-agents">Voice</a> · <a href="#-creative-ai">Creative</a> · <a href="#-task--workflow-agents">Workflow</a> · <a href="#-customer-support--crm-agents">CRM</a> · <a href="#-data--research-agents">Research</a> · <a href="#-local--self-hosted-ai">Self-Hosted</a> · <a href="#-protocols--standards">Protocols</a>
 
 </div>
 
@@ -27,22 +27,22 @@
 
 ## Contents
 
-- [GNAP](https://github.com/farol-team/gnap) ΓÇö Git-Native Agent Protocol: coordinate AI agent teams with 4 JSON files in a git repo. No server, no database. Any agent that can git push can participate. MIT licensed.
-- [Coding Agents](#-coding-agents) ΓÇö IDE, Terminal, Autonomous, Code Review, App Builders
-- [Agent Frameworks](#-agent-frameworks) ΓÇö General, Multi-Agent, Lightweight
-- [Browser and Desktop Agents](#-browser--desktop-agents) ΓÇö Consumer, Infrastructure
-- [Voice Agents](#-voice-agents) ΓÇö Platforms, Open-Source
-- [Creative AI](#-creative-ai) ΓÇö Image, Video, Music, 3D
-- [Task and Workflow Agents](#-task--workflow-agents) ΓÇö Automation, No-Code Builders
+- [GNAP](https://github.com/farol-team/gnap) — Git-Native Agent Protocol: coordinate AI agent teams with 4 JSON files in a git repo. No server, no database. Any agent that can git push can participate. MIT licensed.
+- [Coding Agents](#-coding-agents) — IDE, Terminal, Autonomous, Code Review, App Builders
+- [Agent Frameworks](#-agent-frameworks) — General, Multi-Agent, Lightweight
+- [Browser and Desktop Agents](#-browser--desktop-agents) — Consumer, Infrastructure
+- [Voice Agents](#-voice-agents) — Platforms, Open-Source
+- [Creative AI](#-creative-ai) — Image, Video, Music, 3D
+- [Task and Workflow Agents](#-task--workflow-agents) — Automation, No-Code Builders
 - [Customer Support and CRM Agents](#-customer-support--crm-agents)
-- [Data and Research Agents](#-data--research-agents) ΓÇö Deep Research, Data Analysis, RAG
-- [Local and Self-Hosted AI](#-local--self-hosted-ai) ΓÇö LLM Runners, Self-Hosted UIs
+- [Data and Research Agents](#-data--research-agents) — Deep Research, Data Analysis, RAG
+- [Local and Self-Hosted AI](#-local--self-hosted-ai) — LLM Runners, Self-Hosted UIs
 - [Multi-Agent Platforms](#-multi-agent-platforms)
 - [Protocols and Standards](#-protocols--standards)
 - [Observability and Evaluation](#-observability--evaluation)
 - [Open-Source Models for Agents](#-open-source-models-for-agents)
 - [AI Safety and Guardrails](#-ai-safety--guardrails)
-- [AI Governance and Compliance](#-ai-governance--compliance) Γ¡É NEW
+- [AI Governance and Compliance](#-ai-governance--compliance) ⭐ NEW
 - [Cybersecurity Agents](#-cybersecurity-agents)
 - [Healthcare and Therapy Agents](#-healthcare-and-therapy-agents)
 - [Learning Resources](#-learning-resources)
@@ -51,7 +51,7 @@
 
 ---
 
-## ≡ƒûÑ Coding Agents
+## 🖥 Coding Agents
 
 ### IDE-Native Agents
 
@@ -65,7 +65,7 @@
 | [Tabnine](https://www.tabnine.com/) | Privacy-first. On-premise option. Fine-tuned on your codebase. | Free / $12/mo |
 | [Sourcegraph Cody](https://sourcegraph.com/cody) | Excels at large codebases. Enterprise context engine. | Free / $9/mo |
 | [Google Antigravity](https://idx.google.com) | Free Claude Opus 4.6 access. Learning-focused. | Free |
-| [Kiro](https://kiro.dev) | Spec-driven development. Write specs ΓåÆ auto-generate tasks ΓåÆ implement. DevOps automation. | Free beta |
+| [Kiro](https://kiro.dev) | Spec-driven development. Write specs → auto-generate tasks → implement. DevOps automation. | Free beta |
 
 ### Terminal and CLI Agents
 
@@ -73,7 +73,7 @@
 |-------|-------------|---------|
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic CLI agent. Best reasoning. 80.9% SWE-bench. Agent Teams feature. | $20/mo+ API |
 | [OpenAI Codex CLI](https://github.com/openai/codex) | OpenAI terminal agent. Agents SDK. Multi-agent. | ChatGPT sub |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Γ¡É **NEW (Apr 2026)** Google's official open-source terminal agent. ReAct loop. MCP support. 1M context. Apache 2.0. | Free w/ Google account |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ⭐ **NEW (Apr 2026)** Google's official open-source terminal agent. ReAct loop. MCP support. 1M context. Apache 2.0. | Free w/ Google account |
 | [Aider](https://github.com/paul-gauthier/aider) | OSS pair programmer. Git-aware. Any LLM. | Free + API |
 | [Cline](https://github.com/cline/cline) | VS Code extension. Full terminal and browser access for Claude/GPT. | Free + API |
 | [RooCode](https://github.com/RooVetGit/Roo-Code) | Cline fork. Structured modes. Reduced hallucinations. | Free + API |
@@ -113,7 +113,7 @@
 
 ---
 
-## ≡ƒº▒ Agent Frameworks
+## 🧱 Agent Frameworks
 
 ### General Purpose
 
@@ -128,7 +128,7 @@
 | [DSPy](https://github.com/stanfordnlp/dspy) | Py | Stanford. Programming not prompting. Auto-optimizes. |
 | [Mastra](https://github.com/mastra-ai/mastra) | TS | TypeScript-first. Observational Memory. Apache 2.0. |
 | [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-python) | Py/TS | Official Claude SDK. Tool use, computer control, streaming. |
-| [Google ADK](https://github.com/google/adk-python) | Py | Γ¡É Google's Agent Development Kit. Native Gemini. Multi-agent orchestration. |
+| [Google ADK](https://github.com/google/adk-python) | Py | ⭐ Google's Agent Development Kit. Native Gemini. Multi-agent orchestration. |
 
 ### Multi-Agent Orchestration
 
@@ -166,7 +166,7 @@
 
 ---
 
-## ≡ƒîÉ Browser and Desktop Agents
+## 🌐 Browser and Desktop Agents
 
 ### Consumer Products
 
@@ -181,7 +181,7 @@
 | [Dia Browser](https://diabrowser.com) | AI-native browser (Atlassian/Browser Company). | Beta |
 | [Fellou](https://fellou.ai) | Transparent. Visual workflow editing. Agentic memory. | Beta |
 | [Genspark](https://genspark.ai) | 169+ on-device models. No internet required. | Free / Paid |
-| [Grok Computer](https://x.ai) | Γ¡É **Upcoming** xAI desktop agent. Mouse control, app automation. | TBA |
+| [Grok Computer](https://x.ai) | ⭐ **Upcoming** xAI desktop agent. Mouse control, app automation. | TBA |
 
 ### Developer Infrastructure
 
@@ -200,7 +200,7 @@
 
 ---
 
-## ≡ƒÄÖ Voice Agents
+## 🎙 Voice Agents
 
 ### Platforms and APIs
 
@@ -229,7 +229,7 @@
 
 ---
 
-## ≡ƒÄ¿ Creative AI
+## 🎨 Creative AI
 
 ### Image Generation
 
@@ -250,8 +250,8 @@
 
 | Tool | Description | Pricing |
 |------|-------------|---------|
-| [Google Veo 3.1](https://deepmind.google) | Γ¡É **Best in class** Native audio+video. 4K. Veo 3.1 Lite for devs (Apr 2026). | API |
-| [Kling 3.0](https://klingai.com) | Γ¡É Cinematic realism. 15s sequences. Native audio sync. Character consistency. | Free / $6.99+/mo |
+| [Google Veo 3.1](https://deepmind.google) | ⭐ **Best in class** Native audio+video. 4K. Veo 3.1 Lite for devs (Apr 2026). | API |
+| [Kling 3.0](https://klingai.com) | ⭐ Cinematic realism. 15s sequences. Native audio sync. Character consistency. | Free / $6.99+/mo |
 | [Runway Gen-4.5](https://runwayml.com) | No.1 benchmark. Motion Brush, Director Mode. Best editing. | From $12/mo |
 | [Sora 2](https://sora.com) | OpenAI. Narrative coherence. Physics realism. **Note: app retiring Apr 26, 2026.** | $20+/mo |
 | [Seedance 2.0](https://seedance.ai) | Quad-modal input. Lip sync. 2K resolution. | Free credits |
@@ -282,7 +282,7 @@
 
 ---
 
-## ΓÜí Task and Workflow Agents
+## ⚡ Task and Workflow Agents
 
 ### Automation
 
@@ -293,7 +293,7 @@
 | [Make](https://make.com) | Visual workflow platform. AI capabilities. | Free / Paid |
 | [Activepieces](https://github.com/activepieces/activepieces) | OSS Zapier alternative with AI. | Free (OSS) |
 | [Temporal](https://github.com/temporalio/temporal) | Durable execution for long-running agent workflows. | Free / Cloud |
-| [Mission Control](https://github.com/MeisnerDan/mission-control) | Cockpit for the agentic era ΓÇö manage AI agent swarms with autonomous daemon, Field Ops for real-world execution, and approval workflows. | Free (OSS) |
+| [Mission Control](https://github.com/MeisnerDan/mission-control) | Cockpit for the agentic era — manage AI agent swarms with autonomous daemon, Field Ops for real-world execution, and approval workflows. | Free (OSS) |
 
 ### No-Code Agent Builders
 
@@ -310,7 +310,7 @@
 
 ---
 
-## ≡ƒÆ╝ Customer Support and CRM Agents
+## 💼 Customer Support and CRM Agents
 
 ### Support Agents
 
@@ -349,7 +349,7 @@
 
 ---
 
-## ≡ƒôè Data and Research Agents
+## 📊 Data and Research Agents
 
 ### Deep Research
 
@@ -367,7 +367,7 @@
 
 | Agent | Description | Pricing |
 |-------|-------------|---------|
-| [AI for Database](https://aifordatabase.com) | Connect to any database and interact with it in plain English. No SQL needed ΓÇö get instant insights, build self-refreshing dashboards, and trigger automated workflows based on database changes. | Free / Paid |
+| [AI for Database](https://aifordatabase.com) | Connect to any database and interact with it in plain English. No SQL needed — get instant insights, build self-refreshing dashboards, and trigger automated workflows based on database changes. | Free / Paid |
 | [Julius AI](https://julius.ai) | Upload CSV/Excel, ask in natural language. | Free / Paid |
 | [Hex AI](https://hex.tech) | Collaborative data platform. AI analysis. | Free / Paid |
 | [PandasAI](https://github.com/Sinaptik-AI/pandas-ai) | Chat with your data. NL to Pandas/SQL. | Free (OSS) |
@@ -380,7 +380,7 @@
 | Tool | Description |
 |------|-------------|
 | [RAGFlow](https://github.com/infiniflow/ragflow) | OSS RAG engine with agent capabilities. |
-| [Lorg](https://github.com/LorgAI/lorg-mcp-server) ΓÇö Permanent intelligence archive for AI agents. Structured contributions (prompts, workflows, insights, patterns) pass an automated quality gate and are hash-chained. Trust scores are cryptographically backed and publicly auditable. Works with Claude and ChatGPT.
+| [Lorg](https://github.com/LorgAI/lorg-mcp-server) — Permanent intelligence archive for AI agents. Structured contributions (prompts, workflows, insights, patterns) pass an automated quality gate and are hash-chained. Trust scores are cryptographically backed and publicly auditable. Works with Claude and ChatGPT.
 | [Pathway](https://github.com/pathwaycom/pathway) | Live data RAG. Real-time streaming. 50k+ stars. |
 | [Mem0](https://github.com/mem0ai/mem0) | Memory layer for agents. Long-term across sessions. |
 | [Nex](https://github.com/nex-crm/nex-as-a-skill) | Organizational context and memory for AI agents. 60-tool MCP server, 100+ integrations. |
@@ -393,7 +393,7 @@
 
 ---
 
-## ≡ƒÅá Local and Self-Hosted AI
+## 🏠 Local and Self-Hosted AI
 
 ### Local LLM Runners
 
@@ -427,7 +427,7 @@
 
 ---
 
-## ≡ƒñû Multi-Agent Platforms
+## 🤖 Multi-Agent Platforms
 
 | Platform | Description | Pricing |
 |----------|-------------|---------|
@@ -443,14 +443,14 @@
 
 ---
 
-## ≡ƒôí Protocols and Standards
+## 📡 Protocols and Standards
 
 | Protocol | Description |
 |----------|-------------|
 | [MCP (Model Context Protocol)](https://github.com/modelcontextprotocol) | Anthropic open standard. "USB-C for AI." Donated to Linux Foundation. Industry standard for agent tools. |
 | [A2A (Agent-to-Agent)](https://github.com/google/A2A) | Google protocol for inter-agent communication. Horizontal agent collaboration. |
 | [MCP Gateways](https://github.com/modelcontextprotocol) | Enterprise management layer: auth, routing, observability across MCP+A2A networks. |
-| [MCP Apps](https://github.com/modelcontextprotocol) | Γ¡É **New in 2026** ΓÇö Tools return rich interactive UIs (dashboards, forms) in agent chat. |
+| [MCP Apps](https://github.com/modelcontextprotocol) | ⭐ **New in 2026** — Tools return rich interactive UIs (dashboards, forms) in agent chat. |
 | [OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling) | OpenAI native tool-use. JSON schema. |
 | [Tool Use (Anthropic)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use) | Claude native tool-use. Structured JSON. |
 | [OpenAPI](https://github.com/OAI/OpenAPI-Specification) | Industry-standard API spec. Foundation for agent tools. |
@@ -464,7 +464,7 @@
 
 ---
 
-## ≡ƒöì Observability and Evaluation
+## 🔍 Observability and Evaluation
 
 ### Context Optimization
 
@@ -484,7 +484,7 @@
 | [Helicone](https://github.com/Helicone/helicone) | OSS LLM observability. One-line integration. |
 | [model-watchdog](https://github.com/feralghost/model-watchdog) | Auto-rollback when your AI agent config breaks it. Zero deps, single Python file. Probes health endpoint, reverts config on failure. |
 | [Weights and Biases Weave](https://wandb.ai/site/weave) | Trace and evaluate LLM apps. |
-| [Agent-Casuality](https://github.com/Psionic-labs/Agent-Casuality) | Causal debugging for branching multi-agent systems. Captures LangGraph and OpenCode runs as causal event graphs, slices failures to their causal ancestry, reconstructs verified state, and replays counterfactuals. AGPL-3.0. |
+| [Agent-Casuality](https://github.com/Psionic-labs/Agent-Casuality) | Causal debugging for branching multi-agent systems. Captures LangGraph and OpenCode runs as causal event graphs, slices failures to their causal ancestry, reconstructs verified state, and replays counterfactuals. |
 
 ### Benchmarks
 
@@ -493,21 +493,21 @@
 | [SWE-bench](https://github.com/princeton-nlp/SWE-bench) | Industry standard for coding agents. Top: 80.9% (Claude Opus 4.6). |
 | [AgentBench](https://github.com/THUDM/AgentBench) | 8-environment LLM agent benchmark. |
 | [Terminal-Bench](https://terminalbench.com) | Terminal agent performance. GPT-5.4 leads at 77.3%. |
-| [ARC-AGI-2](https://arcprize.org) | Γ¡É New frontier benchmark. Gemini 3.1 Pro leads. |
+| [ARC-AGI-2](https://arcprize.org) | ⭐ New frontier benchmark. Gemini 3.1 Pro leads. |
 | [GAIA](https://huggingface.co/gaia-benchmark) | General AI Assistant. Real-world tasks. |
 | [WebArena](https://github.com/web-arena-x/webarena) | Web agent benchmark. Real websites. |
 
 ---
 
-## ≡ƒºá Open-Source Models for Agents
+## 🧠 Open-Source Models for Agents
 
 | Model | Org | Params | Highlights |
 |-------|-----|--------|------------|
 | [Llama 4](https://github.com/meta-llama) | Meta | 109B-400B | Scout (10M ctx). Maverick (1M ctx). Strong tool use. Open-weight. |
-| [Qwen3.6-Plus](https://github.com/QwenLM/Qwen3) | Alibaba | Various | Γ¡É **NEW (Apr 2026)** Agentic focus. 1M ctx. Repo-level coding. MCP-native. |
+| [Qwen3.6-Plus](https://github.com/QwenLM/Qwen3) | Alibaba | Various | ⭐ **NEW (Apr 2026)** Agentic focus. 1M ctx. Repo-level coding. MCP-native. |
 | [Qwen3.5-Omni](https://github.com/QwenLM/Qwen3) | Alibaba | 397B MoE | Native multimodal. Text, image, audio. |
 | [DeepSeek V3/R1](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek | 671B MoE | 68x cheaper. Strong reasoning. V4 Lite in preview. |
-| [Gemma 4](https://github.com/google-deepmind/gemma) | Google | 2B-31B | Γ¡É **NEW (Apr 2026)** Consumer/IoT optimized. E2B, E4B variants. |
+| [Gemma 4](https://github.com/google-deepmind/gemma) | Google | 2B-31B | ⭐ **NEW (Apr 2026)** Consumer/IoT optimized. E2B, E4B variants. |
 | [GLM-4](https://github.com/THUDM/GLM-4) | Zhipu | 744B MoE | Lowest hallucination rate. 77.8% SWE-bench. |
 | [Mistral Large](https://mistral.ai) | Mistral | Various | Function calling, JSON mode. European. |
 | [Command R+](https://cohere.com) | Cohere | 104B | RAG and enterprise tool use optimized. |
@@ -515,7 +515,7 @@
 
 ---
 
-## ≡ƒ¢í AI Safety and Guardrails
+## 🛡 AI Safety and Guardrails
 
 | Tool | Description |
 |------|-------------|
@@ -524,13 +524,13 @@
 | [LLM Guard](https://github.com/protectai/llm-guard) | Security toolkit. Input/output scanning. |
 | [Rebuff](https://github.com/protectai/rebuff) | Prompt injection detection. |
 | [Lakera Guard](https://lakera.ai) | Real-time protection. Prompt injection, data leakage, toxicity. |
-| [OWASP Top 10 for Agentic Apps](https://owasp.org) | Γ¡É **2026 Framework** Goal hijacking, tool misuse, cascading failure mitigations. |
+| [OWASP Top 10 for Agentic Apps](https://owasp.org) | ⭐ **2026 Framework** Goal hijacking, tool misuse, cascading failure mitigations. |
 
 ---
 
-## ΓÜû∩╕Å AI Governance and Compliance
+## ⚖️ AI Governance and Compliance
 
-> Γ¡É **New section** ΓÇö EU AI Act full obligations take effect **August 2, 2026**. Organizations deploying agents must comply.
+> ⭐ **New section** — EU AI Act full obligations take effect **August 2, 2026**. Organizations deploying agents must comply.
 
 | Tool / Resource | Description |
 |-----------------|-------------|
@@ -545,7 +545,7 @@
 
 ---
 
-## ≡ƒöÉ Cybersecurity Agents
+## 🔐 Cybersecurity Agents
 
 | Agent | Description |
 |-------|-------------|
@@ -558,11 +558,11 @@
 
 ---
 
-## ≡ƒÅÑ Healthcare and Therapy Agents
+## 🏥 Healthcare and Therapy Agents
 
 | Agent | Description | Pricing |
 |-------|-------------|---------|
-| [CittaVerse Σ╕Çσ┐╡Σ╕çτ¢╕](https://github.com/cittaverse/core) | AI-assisted reminiscence therapy for elderly cognitive training. Narrative quality scoring (v0.7), life story book generation. Chinese + English. | Research pilot |
+| [CittaVerse 一念万相](https://github.com/cittaverse/core) | AI-assisted reminiscence therapy for elderly cognitive training. Narrative quality scoring (v0.7), life story book generation. Chinese + English. | Research pilot |
 | [Woebot](https://woebothealth.com) | CBT-based mental health chatbot. FDA-cleared. Stanford-validated. Retiring June 2025. | Free / B2B |
 | [Wysa](https://wysa.io) | AI mental health companion. CBT, DBT, meditation. NHS-approved. Anonymous by design. | Free / $74.99/yr |
 | [Youper](https://youper.ai) | Emotional health assistant. CBT + ACT. Mood tracking. Stanford-tested clinically effective. | 7-day trial / $69.99/yr |
@@ -577,7 +577,7 @@
 
 ---
 
-## ≡ƒôÜ Learning Resources
+## 📚 Learning Resources
 
 ### Courses and Tutorials
 - [DeepLearning.AI Agent Courses](https://www.deeplearning.ai/) - Free courses with LangChain, CrewAI, AutoGen
@@ -586,7 +586,7 @@
 - [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) - Claude agent recipes
 - [Microsoft GenAI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) - 21-lesson course
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - Practical API guides
-- [Google ADK Documentation](https://google.github.io/adk-docs/) - Γ¡É Official Google Agent Development Kit docs
+- [Google ADK Documentation](https://google.github.io/adk-docs/) - ⭐ Official Google Agent Development Kit docs
 
 ### Key Papers
 - [ReAct](https://arxiv.org/abs/2210.03629) - Foundation for modern agents (reasoning + acting)
@@ -605,7 +605,7 @@
 
 ---
 
-## ≡ƒô░ Newsletters and Communities
+## 📰 Newsletters and Communities
 
 | Resource | Description |
 |----------|-------------|
@@ -621,7 +621,7 @@
 
 ---
 
-## ≡ƒôê Market Stats 2026
+## 📈 Market Stats 2026
 
 - **Market size:** $10.91B in 2026, projected $52.63B by 2030 (46.3% CAGR)
 - **Production:** 57% of orgs have agents in production (LangChain)
@@ -630,25 +630,25 @@
 - **Top barrier:** Quality (32%), Latency (20%)
 - **Coding market:** $4B. Cursor + Copilot + Claude Code = 70%+ share
 - **Fastest repo:** OpenClaw (9k to 188k stars in 60 days)
-- **Model velocity:** Frontier models now updated every 2ΓÇô4 weeks (GPT-5.x monthly cycle)
+- **Model velocity:** Frontier models now updated every 2–4 weeks (GPT-5.x monthly cycle)
 - **Context windows:** 1M tokens now standard for all frontier models
 - **EU AI Act:** Full obligations for high-risk AI systems effective August 2, 2026
 - **MCP adoption:** Donated to Linux Foundation; adopted by Anthropic, OpenAI, Microsoft, Google
 
-### ≡ƒùô April 2026 Highlights
-- **Claude Sonnet 5** released April 1 ΓÇö top coding+reasoning performance
-- **Gemma 4** released April 2 ΓÇö Google's efficient open models (2BΓÇô31B) for consumer/IoT
-- **Qwen3.6-Plus** released April 1 ΓÇö Alibaba's agentic flagship with 1M ctx
-- **Gemini CLI** released ΓÇö Google's open-source terminal agent (Apache 2.0)
-- **Veo 3.1 Lite** released ΓÇö affordable video gen API for developers
-- **Kling 3.0** (Feb 2026) ΓÇö cinematic realism, native audio, character consistency
-- **Grok 4.20** current xAI flagship ΓÇö multi-agent "Society of Mind" architecture
+### 🗓 April 2026 Highlights
+- **Claude Sonnet 5** released April 1 — top coding+reasoning performance
+- **Gemma 4** released April 2 — Google's efficient open models (2B–31B) for consumer/IoT
+- **Qwen3.6-Plus** released April 1 — Alibaba's agentic flagship with 1M ctx
+- **Gemini CLI** released — Google's open-source terminal agent (Apache 2.0)
+- **Veo 3.1 Lite** released — affordable video gen API for developers
+- **Kling 3.0** (Feb 2026) — cinematic realism, native audio, character consistency
+- **Grok 4.20** current xAI flagship — multi-agent "Society of Mind" architecture
 
 ---
 
 ## XVARY Stock Research
 
-- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) ΓÇö Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
+- [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
 
 
 ## Contributing
@@ -665,9 +665,9 @@ Looking for: new tools (2025-2026), corrections, new categories, translations.
 
 <div align="center">
   <br>
-  <strong>Star Γ¡É and share if this helped!</strong>
+  <strong>Star ⭐ and share if this helped!</strong>
   <br><br>
-  <a href="https://twitter.com/intent/tweet?text=Awesome%20AI%20Agents%202026%20-%20340%2B%20tools%20across%2020%2B%20categories&url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on X</a> ┬╖ <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on LinkedIn</a>
+  <a href="https://twitter.com/intent/tweet?text=Awesome%20AI%20Agents%202026%20-%20340%2B%20tools%20across%2020%2B%20categories&url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on X</a> · <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/caramaschiHG/awesome-ai-agents-2026">Share on LinkedIn</a>
   <br><br>
-  <sub>April 2026 ┬╖ 340+ resources ┬╖ Made with love by the community</sub>
+  <sub>April 2026 · 340+ resources · Made with love by the community</sub>
 </div>
